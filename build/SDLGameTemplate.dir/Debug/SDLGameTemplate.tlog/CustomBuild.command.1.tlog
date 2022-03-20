@@ -1,0 +1,10 @@
+^C:\USERS\WATER\DESKTOP\SPACERR\SDLGAMETEMPLATE\CMAKELISTS.TXT
+setlocal
+C:\Users\water\Desktop\cmake-3.23.0-rc1-windows-x86_64\bin\cmake.exe -SC:/Users/water/Desktop/Spacerr/SDLGameTemplate -BC:/Users/water/Desktop/Spacerr/build --check-stamp-file C:/Users/water/Desktop/Spacerr/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

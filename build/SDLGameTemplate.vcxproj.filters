@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\water\Desktop\Spacerr\SDLGameTemplate\src\engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\water\Desktop\Spacerr\SDLGameTemplate\src\sprite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\water\Desktop\Spacerr\SDLGameTemplate\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\water\Desktop\Spacerr\SDLGameTemplate\src\shot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\water\Desktop\Spacerr\SDLGameTemplate\src\engine.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\water\Desktop\Spacerr\SDLGameTemplate\src\sprite.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\water\Desktop\Spacerr\SDLGameTemplate\src\shot.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\water\Desktop\Spacerr\SDLGameTemplate\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{F8A6BFA0-9C45-32CD-B971-E82227F29EFD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9F157FEA-0A13-3F66-8E64-14CC46EB85B7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

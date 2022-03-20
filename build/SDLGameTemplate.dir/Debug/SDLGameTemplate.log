@@ -1,0 +1,2 @@
+﻿shot.obj : error LNK2005: "public: __cdecl Shot::~Shot(void)" (??1Shot@@QEAA@XZ) už je definované v main.obj.
+C:\Users\water\Desktop\Spacerr\build\bin\Debug\SDLGameTemplate.exe : fatal error LNK1169: Našel se jeden nebo víc symbolů, které jsou definované víckrát.
