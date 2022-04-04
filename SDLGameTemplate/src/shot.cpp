@@ -1,7 +1,9 @@
 #include "shot.h"
 #include "sprite.h"
 
-Shot::Shot(SDL_Renderer* ren, const int parX, const int parY)
+Shot::Shot(SDL_Renderer* ren, const int parX, const int parY) :
+	srcRect({ 0 }),
+	destRect({ 0 })
 {
 	renderer = ren;
 	ObjTexture =  LoadSprite("assets/shot.png");
@@ -9,10 +11,12 @@ Shot::Shot(SDL_Renderer* ren, const int parX, const int parY)
 	y = parY;
 }
 
+Shot::~Shot()
+{
+}
+
 void Shot::Update()
 {
-	
-
 	srcRect.h = 10;
 	srcRect.w = 30;
 	srcRect.x = x;

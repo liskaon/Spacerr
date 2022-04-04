@@ -20,14 +20,3 @@ private:
 	SDL_Rect srcRect, destRect;
 	SDL_Renderer* renderer;
 };
-/*
-Shot::Shot()
-{
-
-}
-*/
-
-
-Shot::~Shot()
-{
-}
